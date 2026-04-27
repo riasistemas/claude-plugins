@@ -12,8 +12,8 @@
     {
       "name": "whatsapp",
       "source": {
-        "source": "github",
-        "repo": "riasistemas/claude-channel-whatsapp"
+        "source": "url",
+        "url": "https://github.com/riasistemas/claude-channel-whatsapp.git"
       },
       "description": "WhatsApp channel for Claude Code — official Cloud API integration with built-in access control. Manage pairing, allowlists, and policy via /whatsapp:access.",
       "author": {
@@ -30,8 +30,8 @@
     {
       "name": "instagram",
       "source": {
-        "source": "github",
-        "repo": "riasistemas/claude-channel-instagram"
+        "source": "url",
+        "url": "https://github.com/riasistemas/claude-channel-instagram.git"
       },
       "description": "Instagram channel for Claude Code — read and reply to comments via the official Graph API. Manage allowlists and policy via /instagram:access.",
       "author": {
