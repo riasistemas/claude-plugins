@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Channel and tooling plugins for Claude Code, maintained by RIA Systems (verified Meta Tech Provider).",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
@@ -15,7 +15,7 @@
         "source": "url",
         "url": "https://github.com/riasistemas/claude-channel-whatsapp.git"
       },
-      "description": "WhatsApp channel for Claude Code — official Cloud API integration with built-in access control. Manage pairing, allowlists, and policy via /whatsapp:access.",
+      "description": "WhatsApp channel for Claude Code — messaging bridge built on the official Meta Cloud API, with built-in access control. Manage pairing, allowlists, and policy via /whatsapp:access.",
       "author": {
         "name": "RIA Systems",
         "email": "suporte@riasistemas.com.br"
@@ -23,9 +23,10 @@
       "homepage": "https://github.com/riasistemas/claude-channel-whatsapp",
       "repository": "https://github.com/riasistemas/claude-channel-whatsapp",
       "license": "Apache-2.0",
-      "category": "channel",
+      "category": "productivity",
+      "strict": true,
       "keywords": ["whatsapp", "messaging", "channel", "mcp"],
-      "tags": ["whatsapp", "cloud-api", "messaging", "channel"]
+      "tags": ["whatsapp", "messaging", "channel", "mcp"]
     },
     {
       "name": "instagram",
@@ -33,7 +34,7 @@
         "source": "url",
         "url": "https://github.com/riasistemas/claude-channel-instagram.git"
       },
-      "description": "Instagram channel for Claude Code — read and reply to comments via the official Graph API. Manage allowlists and policy via /instagram:access.",
+      "description": "Instagram channel for Claude Code — read and reply to comments AND direct messages via the official Graph API. Built-in comment-to-DM bootstrap, audio transcription, and access control via /instagram:access.",
       "author": {
         "name": "RIA Systems",
         "email": "suporte@riasistemas.com.br"
@@ -41,9 +42,10 @@
       "homepage": "https://github.com/riasistemas/claude-channel-instagram",
       "repository": "https://github.com/riasistemas/claude-channel-instagram",
       "license": "Apache-2.0",
-      "category": "channel",
+      "category": "productivity",
+      "strict": true,
       "keywords": ["instagram", "messaging", "channel", "mcp"],
-      "tags": ["instagram", "graph-api", "messaging", "channel"]
+      "tags": ["instagram", "messaging", "channel", "mcp"]
     }
   ]
 }
