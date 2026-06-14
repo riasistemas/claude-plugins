@@ -46,6 +46,25 @@
       "strict": true,
       "keywords": ["instagram", "messaging", "channel", "mcp"],
       "tags": ["instagram", "messaging", "channel", "mcp"]
+    },
+    {
+      "name": "hermes-tweet",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Xquik-dev/hermes-tweet.git"
+      },
+      "description": "Hermes Agent plugin for X/Twitter research, profile and tweet lookup, and opt-in posting workflows.",
+      "author": {
+        "name": "Xquik",
+        "url": "https://github.com/Xquik-dev"
+      },
+      "homepage": "https://github.com/Xquik-dev/hermes-tweet#readme",
+      "repository": "https://github.com/Xquik-dev/hermes-tweet",
+      "license": "MIT",
+      "category": "productivity",
+      "strict": false,
+      "keywords": ["hermes-agent", "hermes-plugin", "x", "twitter", "social-media", "automation"],
+      "tags": ["hermes-agent", "hermes-plugin", "x", "twitter", "social-media", "automation"]
     }
   ]
 }
