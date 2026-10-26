@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Channel and tooling plugins for Claude Code, maintained by RIA Systems (verified Meta Tech Provider).",
-    "version": "1.0.1"
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -34,12 +34,32 @@
         "source": "url",
         "url": "https://github.com/riasistemas/claude-channel-instagram.git"
       },
-      "description": "Instagram channel for Claude Code — read and reply to comments AND direct messages via the official Graph API. Built-in comment-to-DM bootstrap, audio transcription, and access control via /instagram:access.",
+      "description": "Answer Instagram DMs and comments faster: paste a conversation or a screenshot and get a reply drafted in your voice, a quick read of the lead and a suggested next step. Skills only; nothing is sent on your behalf.",
       "author": {
         "name": "RIA Systems",
         "email": "suporte@riasistemas.com.br"
       },
       "homepage": "https://github.com/riasistemas/claude-channel-instagram",
+      "repository": "https://github.com/riasistemas/claude-channel-instagram",
+      "license": "Apache-2.0",
+      "category": "productivity",
+      "strict": true,
+      "keywords": ["instagram", "dm", "comments", "replies", "leads"],
+      "tags": ["instagram", "dm", "replies", "leads"]
+    },
+    {
+      "name": "instagram-local",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/riasistemas/claude-channel-instagram.git",
+        "ref": "local"
+      },
+      "description": "Instagram channel for Claude Code that runs on your machine with your own Meta app: inbound comments and DMs arrive as channel messages, replies go out through the official Instagram API. Needs a Meta app and an HTTPS tunnel.",
+      "author": {
+        "name": "RIA Systems",
+        "email": "suporte@riasistemas.com.br"
+      },
+      "homepage": "https://github.com/riasistemas/claude-channel-instagram/tree/local#readme",
       "repository": "https://github.com/riasistemas/claude-channel-instagram",
       "license": "Apache-2.0",
       "category": "productivity",
