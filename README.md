@@ -7,7 +7,8 @@ Marketplace catalog for [Claude Code](https://claude.com/claude-code) plugins ma
 | Plugin | What it does | Repo |
 | --- | --- | --- |
 | [`whatsapp`](https://github.com/riasistemas/claude-channel-whatsapp) | Connect a WhatsApp Business number to Claude Code via the official Cloud API. Reply, react, transcribe audio, manage pairing/allowlist. | `riasistemas/claude-channel-whatsapp` |
-| [`instagram`](https://github.com/riasistemas/claude-channel-instagram) | Connect an Instagram Business account to Claude Code via the official Graph API. Read and reply to comments. | `riasistemas/claude-channel-instagram` |
+| [`instagram`](https://github.com/riasistemas/claude-channel-instagram) | Paste an Instagram DM or comment and get a reply drafted, a lead read and a next step. Skills only, works on every Claude app. | `riasistemas/claude-channel-instagram` |
+| [`instagram-local`](https://github.com/riasistemas/claude-channel-instagram/tree/local) | Instagram channel for Claude Code with your own Meta app: inbound comments and DMs, replies through the official Instagram API. The local channel that shipped as `instagram` up to v0.3.5. | `riasistemas/claude-channel-instagram` (branch `local`) |
 
 ## Installation
 
@@ -22,6 +23,7 @@ Then install plugins individually:
 ```
 /plugin install whatsapp@riasistemas
 /plugin install instagram@riasistemas
+/plugin install instagram-local@riasistemas
 /reload-plugins
 ```
 
@@ -38,4 +40,4 @@ For catalog-level issues (e.g. a plugin missing from this list), open an issue h
 
 ## License
 
-Each plugin is independently licensed (currently both Apache-2.0). This catalog itself is published under the same.
+Each plugin is independently licensed (currently all Apache-2.0). This catalog itself is published under the same.
