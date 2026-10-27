@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Channel and tooling plugins for Claude Code, maintained by RIA Systems (verified Meta Tech Provider).",
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "plugins": [
     {
@@ -15,12 +15,32 @@
         "source": "url",
         "url": "https://github.com/riasistemas/claude-channel-whatsapp.git"
       },
-      "description": "WhatsApp channel for Claude Code — messaging bridge built on the official Meta Cloud API, with built-in access control. Manage pairing, allowlists, and policy via /whatsapp:access.",
+      "description": "Answer WhatsApp messages faster: paste a conversation or a screenshot and get a reply drafted in your voice, a quick read of the lead and a suggested next step. Skills only; nothing is sent on your behalf.",
       "author": {
         "name": "RIA Systems",
         "email": "suporte@riasistemas.com.br"
       },
       "homepage": "https://github.com/riasistemas/claude-channel-whatsapp",
+      "repository": "https://github.com/riasistemas/claude-channel-whatsapp",
+      "license": "Apache-2.0",
+      "category": "productivity",
+      "strict": true,
+      "keywords": ["whatsapp", "messages", "replies", "leads", "customers"],
+      "tags": ["whatsapp", "messages", "replies", "leads"]
+    },
+    {
+      "name": "whatsapp-local",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/riasistemas/claude-channel-whatsapp.git",
+        "ref": "local"
+      },
+      "description": "WhatsApp channel for Claude Code that runs on your machine with your own Meta app: inbound messages arrive as channel messages, replies go out through the official WhatsApp Cloud API, with pairing and allowlists. Needs a Meta app and an HTTPS tunnel.",
+      "author": {
+        "name": "RIA Systems",
+        "email": "suporte@riasistemas.com.br"
+      },
+      "homepage": "https://github.com/riasistemas/claude-channel-whatsapp/tree/local#readme",
       "repository": "https://github.com/riasistemas/claude-channel-whatsapp",
       "license": "Apache-2.0",
       "category": "productivity",

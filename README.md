@@ -6,7 +6,8 @@ Marketplace catalog for [Claude Code](https://claude.com/claude-code) plugins ma
 
 | Plugin | What it does | Repo |
 | --- | --- | --- |
-| [`whatsapp`](https://github.com/riasistemas/claude-channel-whatsapp) | Connect a WhatsApp Business number to Claude Code via the official Cloud API. Reply, react, transcribe audio, manage pairing/allowlist. | `riasistemas/claude-channel-whatsapp` |
+| [`whatsapp`](https://github.com/riasistemas/claude-channel-whatsapp) | Paste a WhatsApp conversation and get a reply drafted, a lead read and a next step. Skills only, works on every Claude app. | `riasistemas/claude-channel-whatsapp` |
+| [`whatsapp-local`](https://github.com/riasistemas/claude-channel-whatsapp/tree/local) | WhatsApp channel for Claude Code with your own Meta app: inbound messages, replies through the official Cloud API, pairing and allowlists. The local channel that shipped as `whatsapp` up to v0.1.10. | `riasistemas/claude-channel-whatsapp` (branch `local`) |
 | [`instagram`](https://github.com/riasistemas/claude-channel-instagram) | Paste an Instagram DM or comment and get a reply drafted, a lead read and a next step. Skills only, works on every Claude app. | `riasistemas/claude-channel-instagram` |
 | [`instagram-local`](https://github.com/riasistemas/claude-channel-instagram/tree/local) | Instagram channel for Claude Code with your own Meta app: inbound comments and DMs, replies through the official Instagram API. The local channel that shipped as `instagram` up to v0.3.5. | `riasistemas/claude-channel-instagram` (branch `local`) |
 
@@ -22,6 +23,7 @@ Then install plugins individually:
 
 ```
 /plugin install whatsapp@riasistemas
+/plugin install whatsapp-local@riasistemas
 /plugin install instagram@riasistemas
 /plugin install instagram-local@riasistemas
 /reload-plugins
